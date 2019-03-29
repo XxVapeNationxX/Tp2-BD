@@ -34,10 +34,10 @@
             this.User4 = new System.Windows.Forms.Label();
             this.User3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.Catégorie = new System.Windows.Forms.Button();
+            this.BTN_Question = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BTN_Supprimer = new System.Windows.Forms.Button();
+            this.BTN_Ajouter = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.CatégorieChoisi = new System.Windows.Forms.Label();
@@ -46,22 +46,22 @@
             this.Réponse2 = new System.Windows.Forms.Button();
             this.Réponse3 = new System.Windows.Forms.Button();
             this.Réponse4 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.CBSport1 = new System.Windows.Forms.CheckBox();
+            this.CBHistoire1 = new System.Windows.Forms.CheckBox();
+            this.CBGéo1 = new System.Windows.Forms.CheckBox();
+            this.CBArt1 = new System.Windows.Forms.CheckBox();
+            this.CBSport2 = new System.Windows.Forms.CheckBox();
+            this.CBHistoire2 = new System.Windows.Forms.CheckBox();
+            this.CBGéo2 = new System.Windows.Forms.CheckBox();
+            this.CBArt2 = new System.Windows.Forms.CheckBox();
+            this.CBSport3 = new System.Windows.Forms.CheckBox();
+            this.CBHistoire3 = new System.Windows.Forms.CheckBox();
+            this.CBGéo3 = new System.Windows.Forms.CheckBox();
+            this.CBArt3 = new System.Windows.Forms.CheckBox();
+            this.CBSport4 = new System.Windows.Forms.CheckBox();
+            this.CBHistoire4 = new System.Windows.Forms.CheckBox();
+            this.CBGéo4 = new System.Windows.Forms.CheckBox();
+            this.CBArt4 = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -141,21 +141,21 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Liste de joueur:";
             // 
-            // Catégorie
+            // BTN_Question
             // 
-            this.Catégorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Catégorie.Location = new System.Drawing.Point(21, 31);
-            this.Catégorie.Name = "Catégorie";
-            this.Catégorie.Size = new System.Drawing.Size(137, 23);
-            this.Catégorie.TabIndex = 6;
-            this.Catégorie.Text = "Piger une question";
-            this.Catégorie.UseVisualStyleBackColor = true;
+            this.BTN_Question.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Question.Location = new System.Drawing.Point(21, 31);
+            this.BTN_Question.Name = "BTN_Question";
+            this.BTN_Question.Size = new System.Drawing.Size(137, 23);
+            this.BTN_Question.TabIndex = 6;
+            this.BTN_Question.Text = "Piger une question";
+            this.BTN_Question.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.Catégorie);
+            this.groupBox1.Controls.Add(this.BTN_Supprimer);
+            this.groupBox1.Controls.Add(this.BTN_Ajouter);
+            this.groupBox1.Controls.Add(this.BTN_Question);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.groupBox1.Location = new System.Drawing.Point(12, 197);
@@ -165,25 +165,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Choix";
             // 
-            // button2
+            // BTN_Supprimer
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(21, 111);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Supprimer un joueur";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BTN_Supprimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Supprimer.Location = new System.Drawing.Point(21, 111);
+            this.BTN_Supprimer.Name = "BTN_Supprimer";
+            this.BTN_Supprimer.Size = new System.Drawing.Size(137, 23);
+            this.BTN_Supprimer.TabIndex = 8;
+            this.BTN_Supprimer.Text = "Supprimer un joueur";
+            this.BTN_Supprimer.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // BTN_Ajouter
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(21, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Ajouter un joueur";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BTN_Ajouter.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Ajouter.Location = new System.Drawing.Point(21, 70);
+            this.BTN_Ajouter.Name = "BTN_Ajouter";
+            this.BTN_Ajouter.Size = new System.Drawing.Size(137, 23);
+            this.BTN_Ajouter.TabIndex = 7;
+            this.BTN_Ajouter.Text = "Ajouter un joueur";
+            this.BTN_Ajouter.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -261,165 +261,165 @@
             this.Réponse4.Text = "Réponse4";
             this.Réponse4.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // CBSport1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(90, 89);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 21;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.CBSport1.AutoSize = true;
+            this.CBSport1.Enabled = false;
+            this.CBSport1.Location = new System.Drawing.Point(90, 89);
+            this.CBSport1.Name = "CBSport1";
+            this.CBSport1.Size = new System.Drawing.Size(15, 14);
+            this.CBSport1.TabIndex = 21;
+            this.CBSport1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // CBHistoire1
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Location = new System.Drawing.Point(121, 89);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 22;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.CBHistoire1.AutoSize = true;
+            this.CBHistoire1.Enabled = false;
+            this.CBHistoire1.Location = new System.Drawing.Point(121, 89);
+            this.CBHistoire1.Name = "CBHistoire1";
+            this.CBHistoire1.Size = new System.Drawing.Size(15, 14);
+            this.CBHistoire1.TabIndex = 22;
+            this.CBHistoire1.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // CBGéo1
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Enabled = false;
-            this.checkBox3.Location = new System.Drawing.Point(151, 89);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 23;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.CBGéo1.AutoSize = true;
+            this.CBGéo1.Enabled = false;
+            this.CBGéo1.Location = new System.Drawing.Point(151, 89);
+            this.CBGéo1.Name = "CBGéo1";
+            this.CBGéo1.Size = new System.Drawing.Size(15, 14);
+            this.CBGéo1.TabIndex = 23;
+            this.CBGéo1.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // CBArt1
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Enabled = false;
-            this.checkBox4.Location = new System.Drawing.Point(181, 89);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
-            this.checkBox4.TabIndex = 24;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.CBArt1.AutoSize = true;
+            this.CBArt1.Enabled = false;
+            this.CBArt1.Location = new System.Drawing.Point(181, 89);
+            this.CBArt1.Name = "CBArt1";
+            this.CBArt1.Size = new System.Drawing.Size(15, 14);
+            this.CBArt1.TabIndex = 24;
+            this.CBArt1.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // CBSport2
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Enabled = false;
-            this.checkBox5.Location = new System.Drawing.Point(90, 117);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
-            this.checkBox5.TabIndex = 25;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.CBSport2.AutoSize = true;
+            this.CBSport2.Enabled = false;
+            this.CBSport2.Location = new System.Drawing.Point(90, 117);
+            this.CBSport2.Name = "CBSport2";
+            this.CBSport2.Size = new System.Drawing.Size(15, 14);
+            this.CBSport2.TabIndex = 25;
+            this.CBSport2.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // CBHistoire2
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Enabled = false;
-            this.checkBox6.Location = new System.Drawing.Point(121, 117);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
-            this.checkBox6.TabIndex = 26;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.CBHistoire2.AutoSize = true;
+            this.CBHistoire2.Enabled = false;
+            this.CBHistoire2.Location = new System.Drawing.Point(121, 117);
+            this.CBHistoire2.Name = "CBHistoire2";
+            this.CBHistoire2.Size = new System.Drawing.Size(15, 14);
+            this.CBHistoire2.TabIndex = 26;
+            this.CBHistoire2.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // CBGéo2
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Enabled = false;
-            this.checkBox7.Location = new System.Drawing.Point(151, 117);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
-            this.checkBox7.TabIndex = 27;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.CBGéo2.AutoSize = true;
+            this.CBGéo2.Enabled = false;
+            this.CBGéo2.Location = new System.Drawing.Point(151, 117);
+            this.CBGéo2.Name = "CBGéo2";
+            this.CBGéo2.Size = new System.Drawing.Size(15, 14);
+            this.CBGéo2.TabIndex = 27;
+            this.CBGéo2.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // CBArt2
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Enabled = false;
-            this.checkBox8.Location = new System.Drawing.Point(181, 117);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
-            this.checkBox8.TabIndex = 28;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.CBArt2.AutoSize = true;
+            this.CBArt2.Enabled = false;
+            this.CBArt2.Location = new System.Drawing.Point(181, 117);
+            this.CBArt2.Name = "CBArt2";
+            this.CBArt2.Size = new System.Drawing.Size(15, 14);
+            this.CBArt2.TabIndex = 28;
+            this.CBArt2.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // CBSport3
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Enabled = false;
-            this.checkBox9.Location = new System.Drawing.Point(90, 145);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
-            this.checkBox9.TabIndex = 29;
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.CBSport3.AutoSize = true;
+            this.CBSport3.Enabled = false;
+            this.CBSport3.Location = new System.Drawing.Point(90, 145);
+            this.CBSport3.Name = "CBSport3";
+            this.CBSport3.Size = new System.Drawing.Size(15, 14);
+            this.CBSport3.TabIndex = 29;
+            this.CBSport3.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // CBHistoire3
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Enabled = false;
-            this.checkBox10.Location = new System.Drawing.Point(121, 145);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(15, 14);
-            this.checkBox10.TabIndex = 30;
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.CBHistoire3.AutoSize = true;
+            this.CBHistoire3.Enabled = false;
+            this.CBHistoire3.Location = new System.Drawing.Point(121, 145);
+            this.CBHistoire3.Name = "CBHistoire3";
+            this.CBHistoire3.Size = new System.Drawing.Size(15, 14);
+            this.CBHistoire3.TabIndex = 30;
+            this.CBHistoire3.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // CBGéo3
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Enabled = false;
-            this.checkBox11.Location = new System.Drawing.Point(151, 145);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(15, 14);
-            this.checkBox11.TabIndex = 31;
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.CBGéo3.AutoSize = true;
+            this.CBGéo3.Enabled = false;
+            this.CBGéo3.Location = new System.Drawing.Point(151, 145);
+            this.CBGéo3.Name = "CBGéo3";
+            this.CBGéo3.Size = new System.Drawing.Size(15, 14);
+            this.CBGéo3.TabIndex = 31;
+            this.CBGéo3.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // CBArt3
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Enabled = false;
-            this.checkBox12.Location = new System.Drawing.Point(181, 145);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 32;
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.CBArt3.AutoSize = true;
+            this.CBArt3.Enabled = false;
+            this.CBArt3.Location = new System.Drawing.Point(181, 145);
+            this.CBArt3.Name = "CBArt3";
+            this.CBArt3.Size = new System.Drawing.Size(15, 14);
+            this.CBArt3.TabIndex = 32;
+            this.CBArt3.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // CBSport4
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Enabled = false;
-            this.checkBox13.Location = new System.Drawing.Point(90, 173);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 33;
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.CBSport4.AutoSize = true;
+            this.CBSport4.Enabled = false;
+            this.CBSport4.Location = new System.Drawing.Point(90, 173);
+            this.CBSport4.Name = "CBSport4";
+            this.CBSport4.Size = new System.Drawing.Size(15, 14);
+            this.CBSport4.TabIndex = 33;
+            this.CBSport4.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // CBHistoire4
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Enabled = false;
-            this.checkBox14.Location = new System.Drawing.Point(121, 173);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 34;
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.CBHistoire4.AutoSize = true;
+            this.CBHistoire4.Enabled = false;
+            this.CBHistoire4.Location = new System.Drawing.Point(121, 173);
+            this.CBHistoire4.Name = "CBHistoire4";
+            this.CBHistoire4.Size = new System.Drawing.Size(15, 14);
+            this.CBHistoire4.TabIndex = 34;
+            this.CBHistoire4.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // CBGéo4
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Enabled = false;
-            this.checkBox15.Location = new System.Drawing.Point(151, 173);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 35;
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.CBGéo4.AutoSize = true;
+            this.CBGéo4.Enabled = false;
+            this.CBGéo4.Location = new System.Drawing.Point(151, 173);
+            this.CBGéo4.Name = "CBGéo4";
+            this.CBGéo4.Size = new System.Drawing.Size(15, 14);
+            this.CBGéo4.TabIndex = 35;
+            this.CBGéo4.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // CBArt4
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Enabled = false;
-            this.checkBox16.Location = new System.Drawing.Point(181, 173);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 36;
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.CBArt4.AutoSize = true;
+            this.CBArt4.Enabled = false;
+            this.CBArt4.Location = new System.Drawing.Point(181, 173);
+            this.CBArt4.Name = "CBArt4";
+            this.CBArt4.Size = new System.Drawing.Size(15, 14);
+            this.CBArt4.TabIndex = 36;
+            this.CBArt4.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -524,22 +524,22 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.CBArt4);
+            this.Controls.Add(this.CBGéo4);
+            this.Controls.Add(this.CBHistoire4);
+            this.Controls.Add(this.CBSport4);
+            this.Controls.Add(this.CBArt3);
+            this.Controls.Add(this.CBGéo3);
+            this.Controls.Add(this.CBHistoire3);
+            this.Controls.Add(this.CBSport3);
+            this.Controls.Add(this.CBArt2);
+            this.Controls.Add(this.CBGéo2);
+            this.Controls.Add(this.CBHistoire2);
+            this.Controls.Add(this.CBSport2);
+            this.Controls.Add(this.CBArt1);
+            this.Controls.Add(this.CBGéo1);
+            this.Controls.Add(this.CBHistoire1);
+            this.Controls.Add(this.CBSport1);
             this.Controls.Add(this.Fleche3);
             this.Controls.Add(this.Fleche4);
             this.Controls.Add(this.Fleche2);
@@ -584,10 +584,10 @@
         private System.Windows.Forms.Label User4;
         private System.Windows.Forms.Label User3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button Catégorie;
+        private System.Windows.Forms.Button BTN_Question;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BTN_Supprimer;
+        private System.Windows.Forms.Button BTN_Ajouter;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label CatégorieChoisi;
@@ -600,22 +600,22 @@
         private System.Windows.Forms.PictureBox Fleche2;
         private System.Windows.Forms.PictureBox Fleche4;
         private System.Windows.Forms.PictureBox Fleche3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox CBSport1;
+        private System.Windows.Forms.CheckBox CBHistoire1;
+        private System.Windows.Forms.CheckBox CBGéo1;
+        private System.Windows.Forms.CheckBox CBArt1;
+        private System.Windows.Forms.CheckBox CBSport2;
+        private System.Windows.Forms.CheckBox CBHistoire2;
+        private System.Windows.Forms.CheckBox CBGéo2;
+        private System.Windows.Forms.CheckBox CBArt2;
+        private System.Windows.Forms.CheckBox CBSport3;
+        private System.Windows.Forms.CheckBox CBHistoire3;
+        private System.Windows.Forms.CheckBox CBGéo3;
+        private System.Windows.Forms.CheckBox CBArt3;
+        private System.Windows.Forms.CheckBox CBSport4;
+        private System.Windows.Forms.CheckBox CBHistoire4;
+        private System.Windows.Forms.CheckBox CBGéo4;
+        private System.Windows.Forms.CheckBox CBArt4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
