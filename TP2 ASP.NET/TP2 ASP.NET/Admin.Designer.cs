@@ -135,7 +135,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Admin";
             this.Text = "Supprimer";
-            this.Load += new System.EventHandler(this.Admin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
