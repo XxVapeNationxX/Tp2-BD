@@ -174,6 +174,7 @@
             this.BTN_Supprimer.TabIndex = 8;
             this.BTN_Supprimer.Text = "Supprimer un joueur";
             this.BTN_Supprimer.UseVisualStyleBackColor = true;
+            this.BTN_Supprimer.Click += new System.EventHandler(this.BTN_Supprimer_Click);
             // 
             // BTN_Ajouter
             // 
@@ -184,6 +185,7 @@
             this.BTN_Ajouter.TabIndex = 7;
             this.BTN_Ajouter.Text = "Ajouter un joueur";
             this.BTN_Ajouter.UseVisualStyleBackColor = true;
+            this.BTN_Ajouter.Click += new System.EventHandler(this.BTN_Ajouter_Click);
             // 
             // label3
             // 

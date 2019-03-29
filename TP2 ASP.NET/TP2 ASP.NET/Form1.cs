@@ -71,6 +71,16 @@ namespace TP2_ASP.NET
 
         }
 
-       
+        private void BTN_Ajouter_Click(object sender, EventArgs e)
+        {
+            AjouterJoueur form = new AjouterJoueur();
+            form.Show();
+        }
+
+        private void BTN_Supprimer_Click(object sender, EventArgs e)
+        {
+            SupprimerJoueur form = new SupprimerJoueur();
+            form.Show();
+        }
     }
 }
