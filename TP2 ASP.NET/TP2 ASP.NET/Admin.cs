@@ -30,7 +30,7 @@ namespace TP2_ASP.NET
 
         private void TXT_Question_TextChanged(object sender, EventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(TXT_Question.Text) && !string.IsNullOrWhiteSpace(CB_Catégoire.GetItemText(CB_Catégoire.SelectedIndex)))
+            if (!string.IsNullOrWhiteSpace(TXT_Question.Text) && CB_Catégoire.GetItemText(CB_Catégoire.SelectedIndex) != "-1")
             {
                 BTN_Ajouter.Enabled = true;
             }
@@ -42,7 +42,7 @@ namespace TP2_ASP.NET
 
         private void TXT_Question_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!string.IsNullOrWhiteSpace(TXT_Question.Text) && !string.IsNullOrWhiteSpace(CB_Catégoire.GetItemText(CB_Catégoire.SelectedIndex)))
+            if (!string.IsNullOrWhiteSpace(TXT_Question.Text) && CB_Catégoire.GetItemText(CB_Catégoire.SelectedIndex) != "-1")
             {
                 BTN_Ajouter.Enabled = true;
             }
