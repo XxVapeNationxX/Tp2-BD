@@ -66,9 +66,29 @@ namespace TP2_ASP.NET
             }
         }
 
-        private void PartieGagné()
+        private void ChangerCouleur()
         {
-
+            string Couleur = "blanc";
+            if(Couleur == "blanc")
+            {
+                BTN_Couleur.BackColor = Color.White;
+            }
+            else if(Couleur == "vert") //Sport
+            {
+                BTN_Couleur.BackColor = Color.Green;
+            }
+            else if (Couleur == "rouge") //art
+            {
+                BTN_Couleur.BackColor = Color.Red;
+            }
+            else if (Couleur == "bleu") //géo
+            {
+                BTN_Couleur.BackColor = Color.Blue;
+            }
+            else if (Couleur == "jaune") //histoire
+            {
+                BTN_Couleur.BackColor = Color.Yellow;
+            }
         }
 
         private void BTN_Ajouter_Click(object sender, EventArgs e)

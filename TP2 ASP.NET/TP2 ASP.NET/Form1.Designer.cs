@@ -71,6 +71,8 @@
             this.Fleche4 = new System.Windows.Forms.PictureBox();
             this.Fleche2 = new System.Windows.Forms.PictureBox();
             this.Fleche1 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.BTN_Couleur = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -191,7 +193,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(225, 12);
+            this.label3.Location = new System.Drawing.Point(216, 50);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 29);
             this.label3.TabIndex = 8;
@@ -201,7 +203,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(225, 52);
+            this.label4.Location = new System.Drawing.Point(225, 89);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(116, 29);
             this.label4.TabIndex = 10;
@@ -211,7 +213,7 @@
             // 
             this.CatégorieChoisi.AutoSize = true;
             this.CatégorieChoisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CatégorieChoisi.Location = new System.Drawing.Point(347, 16);
+            this.CatégorieChoisi.Location = new System.Drawing.Point(336, 53);
             this.CatégorieChoisi.Name = "CatégorieChoisi";
             this.CatégorieChoisi.Size = new System.Drawing.Size(105, 25);
             this.CatégorieChoisi.TabIndex = 11;
@@ -221,7 +223,7 @@
             // 
             this.QuestionChoisie.AutoSize = true;
             this.QuestionChoisie.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuestionChoisie.Location = new System.Drawing.Point(335, 55);
+            this.QuestionChoisie.Location = new System.Drawing.Point(336, 92);
             this.QuestionChoisie.Name = "QuestionChoisie";
             this.QuestionChoisie.Size = new System.Drawing.Size(98, 25);
             this.QuestionChoisie.TabIndex = 12;
@@ -516,11 +518,36 @@
             this.Fleche1.TabIndex = 17;
             this.Fleche1.TabStop = false;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(237, 13);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(104, 29);
+            this.label6.TabIndex = 42;
+            this.label6.Text = "Couleur:";
+            // 
+            // BTN_Couleur
+            // 
+            this.BTN_Couleur.BackColor = System.Drawing.Color.White;
+            this.BTN_Couleur.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.BTN_Couleur.Enabled = false;
+            this.BTN_Couleur.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BTN_Couleur.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BTN_Couleur.Location = new System.Drawing.Point(341, 19);
+            this.BTN_Couleur.Name = "BTN_Couleur";
+            this.BTN_Couleur.Size = new System.Drawing.Size(124, 23);
+            this.BTN_Couleur.TabIndex = 43;
+            this.BTN_Couleur.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 385);
+            this.Controls.Add(this.BTN_Couleur);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -623,6 +650,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button BTN_Couleur;
     }
 }
 
