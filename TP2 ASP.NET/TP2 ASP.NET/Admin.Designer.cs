@@ -73,6 +73,8 @@
             this.TXT_Question.Name = "TXT_Question";
             this.TXT_Question.Size = new System.Drawing.Size(235, 20);
             this.TXT_Question.TabIndex = 3;
+            this.TXT_Question.TextChanged += new System.EventHandler(this.TXT_Question_TextChanged);
+            this.TXT_Question.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TXT_Question_KeyPress);
             // 
             // Question_LB
             // 
@@ -81,6 +83,7 @@
             this.Question_LB.Name = "Question_LB";
             this.Question_LB.Size = new System.Drawing.Size(320, 212);
             this.Question_LB.TabIndex = 4;
+            this.Question_LB.SelectedIndexChanged += new System.EventHandler(this.Question_LB_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -136,6 +139,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Admin";
             this.Text = "Supprimer";
+            this.Load += new System.EventHandler(this.Admin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

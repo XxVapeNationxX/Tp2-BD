@@ -21,5 +21,47 @@ namespace TP2_ASP.NET
         {
             this.Close();
         }
+
+        private void Admin_Load(object sender, EventArgs e)
+        {
+            BTN_Ajouter.Enabled = false;
+            BTN_Supprimer.Enabled = false;
+        }
+
+        private void TXT_Question_TextChanged(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(TXT_Question.Text) && !string.IsNullOrWhiteSpace(CB_Catégoire.GetItemText(CB_Catégoire.SelectedIndex)))
+            {
+                BTN_Ajouter.Enabled = true;
+            }
+            else
+            {
+                BTN_Ajouter.Enabled = false;
+            }
+        }
+
+        private void TXT_Question_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!string.IsNullOrWhiteSpace(TXT_Question.Text) && !string.IsNullOrWhiteSpace(CB_Catégoire.GetItemText(CB_Catégoire.SelectedIndex)))
+            {
+                BTN_Ajouter.Enabled = true;
+            }
+            else
+            {
+                BTN_Ajouter.Enabled = false;
+            }
+        }
+
+        private void Question_LB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (Question_LB.SelectedIndex == -1)
+            {
+                BTN_Supprimer.Enabled = false;
+            }
+            else
+            {
+                BTN_Supprimer.Enabled = true;
+            }
+        }
     }
 }
