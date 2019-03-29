@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.CB_Catégoire = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.QuestionLB = new System.Windows.Forms.ListBox();
+            this.TXT_Question = new System.Windows.Forms.TextBox();
+            this.Question_LB = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.BTN_Ajouter = new System.Windows.Forms.Button();
             this.BTN_Supprimer = new System.Windows.Forms.Button();
@@ -49,13 +49,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Catégorie:";
             // 
-            // comboBox1
+            // CB_Catégoire
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(101, 24);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(235, 21);
-            this.comboBox1.TabIndex = 1;
+            this.CB_Catégoire.FormattingEnabled = true;
+            this.CB_Catégoire.Location = new System.Drawing.Point(101, 24);
+            this.CB_Catégoire.Name = "CB_Catégoire";
+            this.CB_Catégoire.Size = new System.Drawing.Size(235, 21);
+            this.CB_Catégoire.TabIndex = 1;
             // 
             // label2
             // 
@@ -67,20 +67,20 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Question:";
             // 
-            // textBox1
+            // TXT_Question
             // 
-            this.textBox1.Location = new System.Drawing.Point(101, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 20);
-            this.textBox1.TabIndex = 3;
+            this.TXT_Question.Location = new System.Drawing.Point(101, 60);
+            this.TXT_Question.Name = "TXT_Question";
+            this.TXT_Question.Size = new System.Drawing.Size(235, 20);
+            this.TXT_Question.TabIndex = 3;
             // 
-            // QuestionLB
+            // Question_LB
             // 
-            this.QuestionLB.FormattingEnabled = true;
-            this.QuestionLB.Location = new System.Drawing.Point(16, 155);
-            this.QuestionLB.Name = "QuestionLB";
-            this.QuestionLB.Size = new System.Drawing.Size(320, 212);
-            this.QuestionLB.TabIndex = 4;
+            this.Question_LB.FormattingEnabled = true;
+            this.Question_LB.Location = new System.Drawing.Point(16, 155);
+            this.Question_LB.Name = "Question_LB";
+            this.Question_LB.Size = new System.Drawing.Size(320, 212);
+            this.Question_LB.TabIndex = 4;
             // 
             // label3
             // 
@@ -128,10 +128,10 @@
             this.Controls.Add(this.BTN_Supprimer);
             this.Controls.Add(this.BTN_Ajouter);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.QuestionLB);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Question_LB);
+            this.Controls.Add(this.TXT_Question);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.CB_Catégoire);
             this.Controls.Add(this.label1);
             this.Name = "Admin";
             this.Text = "Supprimer";
@@ -144,10 +144,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox CB_Catégoire;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox QuestionLB;
+        private System.Windows.Forms.TextBox TXT_Question;
+        private System.Windows.Forms.ListBox Question_LB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BTN_Ajouter;
         private System.Windows.Forms.Button BTN_Supprimer;

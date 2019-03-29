@@ -19,7 +19,7 @@ namespace TP2_ASP.NET
 
         private void Admin_Load(object sender, EventArgs e)
         {
-
+            CB_Catégoire
         }
 
     }
