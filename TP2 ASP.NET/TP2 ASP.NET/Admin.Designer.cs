@@ -118,6 +118,7 @@
             this.BTN_Annuler.TabIndex = 8;
             this.BTN_Annuler.Text = "Annuler";
             this.BTN_Annuler.UseVisualStyleBackColor = true;
+            this.BTN_Annuler.Click += new System.EventHandler(this.BTN_Annuler_Click);
             // 
             // Admin
             // 

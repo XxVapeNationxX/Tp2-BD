@@ -51,6 +51,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(288, 108);
             this.listBox1.TabIndex = 1;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // BTN_Supprimer
             // 
@@ -69,6 +70,7 @@
             this.BTN_Annuler.TabIndex = 3;
             this.BTN_Annuler.Text = "Annuler";
             this.BTN_Annuler.UseVisualStyleBackColor = true;
+            this.BTN_Annuler.Click += new System.EventHandler(this.BTN_Annuler_Click);
             // 
             // SupprimerJoueur
             // 
@@ -81,6 +83,7 @@
             this.Controls.Add(this.label1);
             this.Name = "SupprimerJoueur";
             this.Text = "SupprimerJoueur";
+            this.Load += new System.EventHandler(this.SupprimerJoueur_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

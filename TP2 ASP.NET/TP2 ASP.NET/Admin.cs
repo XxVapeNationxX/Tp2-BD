@@ -17,5 +17,9 @@ namespace TP2_ASP.NET
             InitializeComponent();
         }
 
+        private void BTN_Annuler_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
