@@ -40,7 +40,6 @@
             this.BTN_Ajouter = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.CatégorieChoisi = new System.Windows.Forms.Label();
             this.QuestionChoisie = new System.Windows.Forms.Label();
             this.Réponse1 = new System.Windows.Forms.Button();
             this.Réponse2 = new System.Windows.Forms.Button();
@@ -73,6 +72,8 @@
             this.Histoire4 = new System.Windows.Forms.Label();
             this.Géo4 = new System.Windows.Forms.Label();
             this.Art4 = new System.Windows.Forms.Label();
+            this.BTN_Catégorie = new System.Windows.Forms.Button();
+            this.CatégorieChoisi = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -155,6 +156,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.BTN_Catégorie);
             this.groupBox1.Controls.Add(this.BTN_Supprimer);
             this.groupBox1.Controls.Add(this.BTN_Ajouter);
             this.groupBox1.Controls.Add(this.BTN_Question);
@@ -170,7 +172,7 @@
             // BTN_Supprimer
             // 
             this.BTN_Supprimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTN_Supprimer.Location = new System.Drawing.Point(21, 111);
+            this.BTN_Supprimer.Location = new System.Drawing.Point(21, 109);
             this.BTN_Supprimer.Name = "BTN_Supprimer";
             this.BTN_Supprimer.Size = new System.Drawing.Size(137, 23);
             this.BTN_Supprimer.TabIndex = 8;
@@ -208,16 +210,6 @@
             this.label4.Size = new System.Drawing.Size(116, 29);
             this.label4.TabIndex = 10;
             this.label4.Text = "Question:";
-            // 
-            // CatégorieChoisi
-            // 
-            this.CatégorieChoisi.AutoSize = true;
-            this.CatégorieChoisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CatégorieChoisi.Location = new System.Drawing.Point(336, 53);
-            this.CatégorieChoisi.Name = "CatégorieChoisi";
-            this.CatégorieChoisi.Size = new System.Drawing.Size(105, 25);
-            this.CatégorieChoisi.TabIndex = 11;
-            this.CatégorieChoisi.Text = "Catégorie";
             // 
             // QuestionChoisie
             // 
@@ -541,11 +533,30 @@
             this.Art4.TabIndex = 59;
             this.Art4.Text = "0";
             // 
+            // BTN_Catégorie
+            // 
+            this.BTN_Catégorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_Catégorie.Location = new System.Drawing.Point(21, 146);
+            this.BTN_Catégorie.Name = "BTN_Catégorie";
+            this.BTN_Catégorie.Size = new System.Drawing.Size(137, 23);
+            this.BTN_Catégorie.TabIndex = 9;
+            this.BTN_Catégorie.Text = "Choisir une catégorie";
+            this.BTN_Catégorie.UseVisualStyleBackColor = true;
+            // 
+            // CatégorieChoisi
+            // 
+            this.CatégorieChoisi.FormattingEnabled = true;
+            this.CatégorieChoisi.Location = new System.Drawing.Point(341, 54);
+            this.CatégorieChoisi.Name = "CatégorieChoisi";
+            this.CatégorieChoisi.Size = new System.Drawing.Size(178, 21);
+            this.CatégorieChoisi.TabIndex = 60;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 385);
+            this.Controls.Add(this.CatégorieChoisi);
             this.Controls.Add(this.Art4);
             this.Controls.Add(this.Géo4);
             this.Controls.Add(this.Histoire4);
@@ -578,7 +589,6 @@
             this.Controls.Add(this.Réponse2);
             this.Controls.Add(this.Réponse1);
             this.Controls.Add(this.QuestionChoisie);
-            this.Controls.Add(this.CatégorieChoisi);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -619,7 +629,6 @@
         private System.Windows.Forms.Button BTN_Ajouter;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label CatégorieChoisi;
         private System.Windows.Forms.Label QuestionChoisie;
         private System.Windows.Forms.Button Réponse1;
         private System.Windows.Forms.Button Réponse2;
@@ -652,6 +661,8 @@
         private System.Windows.Forms.Label Histoire4;
         private System.Windows.Forms.Label Géo4;
         private System.Windows.Forms.Label Art4;
+        private System.Windows.Forms.Button BTN_Catégorie;
+        private System.Windows.Forms.ComboBox CatégorieChoisi;
     }
 }
 

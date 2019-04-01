@@ -24,7 +24,12 @@ namespace TP2_ASP.NET
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            BTN_Catégorie.Enabled = false;
+            CatégorieChoisi.Enabled = false;
+            Réponse1.Enabled = false;
+            Réponse2.Enabled = false;
+            Réponse3.Enabled = false;
+            Réponse4.Enabled = false;
             User1.Text = Joueur1.Prenom;
             User2.Text = Joueur2.Prenom;
             if(Joueur3.Id != -1)
@@ -73,6 +78,8 @@ namespace TP2_ASP.NET
             if(Couleur == "blanc")
             {
                 BTN_Couleur.BackColor = Color.White;
+                BTN_Catégorie.Enabled = true;
+                CatégorieChoisi.Enabled = true;
             }
             else if(Couleur == "vert") //Sport
             {
