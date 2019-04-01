@@ -24,6 +24,7 @@ namespace TP2_ASP.NET
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            QuestionChoisie.Text = "";
             BTN_Catégorie.Enabled = false;
             CatégorieChoisi.Enabled = false;
             Réponse1.Enabled = false;
