@@ -46,22 +46,6 @@
             this.Réponse2 = new System.Windows.Forms.Button();
             this.Réponse3 = new System.Windows.Forms.Button();
             this.Réponse4 = new System.Windows.Forms.Button();
-            this.CBSport1 = new System.Windows.Forms.CheckBox();
-            this.CBHistoire1 = new System.Windows.Forms.CheckBox();
-            this.CBGéo1 = new System.Windows.Forms.CheckBox();
-            this.CBArt1 = new System.Windows.Forms.CheckBox();
-            this.CBSport2 = new System.Windows.Forms.CheckBox();
-            this.CBHistoire2 = new System.Windows.Forms.CheckBox();
-            this.CBGéo2 = new System.Windows.Forms.CheckBox();
-            this.CBArt2 = new System.Windows.Forms.CheckBox();
-            this.CBSport3 = new System.Windows.Forms.CheckBox();
-            this.CBHistoire3 = new System.Windows.Forms.CheckBox();
-            this.CBGéo3 = new System.Windows.Forms.CheckBox();
-            this.CBArt3 = new System.Windows.Forms.CheckBox();
-            this.CBSport4 = new System.Windows.Forms.CheckBox();
-            this.CBHistoire4 = new System.Windows.Forms.CheckBox();
-            this.CBGéo4 = new System.Windows.Forms.CheckBox();
-            this.CBArt4 = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -73,6 +57,22 @@
             this.Fleche1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.BTN_Couleur = new System.Windows.Forms.Button();
+            this.Sport1 = new System.Windows.Forms.Label();
+            this.Histoire1 = new System.Windows.Forms.Label();
+            this.Géo1 = new System.Windows.Forms.Label();
+            this.Art1 = new System.Windows.Forms.Label();
+            this.Sport2 = new System.Windows.Forms.Label();
+            this.Histoire2 = new System.Windows.Forms.Label();
+            this.Géo2 = new System.Windows.Forms.Label();
+            this.Art2 = new System.Windows.Forms.Label();
+            this.Sport3 = new System.Windows.Forms.Label();
+            this.Histoire3 = new System.Windows.Forms.Label();
+            this.Géo3 = new System.Windows.Forms.Label();
+            this.Art3 = new System.Windows.Forms.Label();
+            this.Sport4 = new System.Windows.Forms.Label();
+            this.Histoire4 = new System.Windows.Forms.Label();
+            this.Géo4 = new System.Windows.Forms.Label();
+            this.Art4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -265,166 +265,6 @@
             this.Réponse4.Text = "Réponse4";
             this.Réponse4.UseVisualStyleBackColor = true;
             // 
-            // CBSport1
-            // 
-            this.CBSport1.AutoSize = true;
-            this.CBSport1.Enabled = false;
-            this.CBSport1.Location = new System.Drawing.Point(90, 89);
-            this.CBSport1.Name = "CBSport1";
-            this.CBSport1.Size = new System.Drawing.Size(15, 14);
-            this.CBSport1.TabIndex = 21;
-            this.CBSport1.UseVisualStyleBackColor = true;
-            // 
-            // CBHistoire1
-            // 
-            this.CBHistoire1.AutoSize = true;
-            this.CBHistoire1.Enabled = false;
-            this.CBHistoire1.Location = new System.Drawing.Point(121, 89);
-            this.CBHistoire1.Name = "CBHistoire1";
-            this.CBHistoire1.Size = new System.Drawing.Size(15, 14);
-            this.CBHistoire1.TabIndex = 22;
-            this.CBHistoire1.UseVisualStyleBackColor = true;
-            // 
-            // CBGéo1
-            // 
-            this.CBGéo1.AutoSize = true;
-            this.CBGéo1.Enabled = false;
-            this.CBGéo1.Location = new System.Drawing.Point(151, 89);
-            this.CBGéo1.Name = "CBGéo1";
-            this.CBGéo1.Size = new System.Drawing.Size(15, 14);
-            this.CBGéo1.TabIndex = 23;
-            this.CBGéo1.UseVisualStyleBackColor = true;
-            // 
-            // CBArt1
-            // 
-            this.CBArt1.AutoSize = true;
-            this.CBArt1.Enabled = false;
-            this.CBArt1.Location = new System.Drawing.Point(181, 89);
-            this.CBArt1.Name = "CBArt1";
-            this.CBArt1.Size = new System.Drawing.Size(15, 14);
-            this.CBArt1.TabIndex = 24;
-            this.CBArt1.UseVisualStyleBackColor = true;
-            // 
-            // CBSport2
-            // 
-            this.CBSport2.AutoSize = true;
-            this.CBSport2.Enabled = false;
-            this.CBSport2.Location = new System.Drawing.Point(90, 117);
-            this.CBSport2.Name = "CBSport2";
-            this.CBSport2.Size = new System.Drawing.Size(15, 14);
-            this.CBSport2.TabIndex = 25;
-            this.CBSport2.UseVisualStyleBackColor = true;
-            // 
-            // CBHistoire2
-            // 
-            this.CBHistoire2.AutoSize = true;
-            this.CBHistoire2.Enabled = false;
-            this.CBHistoire2.Location = new System.Drawing.Point(121, 117);
-            this.CBHistoire2.Name = "CBHistoire2";
-            this.CBHistoire2.Size = new System.Drawing.Size(15, 14);
-            this.CBHistoire2.TabIndex = 26;
-            this.CBHistoire2.UseVisualStyleBackColor = true;
-            // 
-            // CBGéo2
-            // 
-            this.CBGéo2.AutoSize = true;
-            this.CBGéo2.Enabled = false;
-            this.CBGéo2.Location = new System.Drawing.Point(151, 117);
-            this.CBGéo2.Name = "CBGéo2";
-            this.CBGéo2.Size = new System.Drawing.Size(15, 14);
-            this.CBGéo2.TabIndex = 27;
-            this.CBGéo2.UseVisualStyleBackColor = true;
-            // 
-            // CBArt2
-            // 
-            this.CBArt2.AutoSize = true;
-            this.CBArt2.Enabled = false;
-            this.CBArt2.Location = new System.Drawing.Point(181, 117);
-            this.CBArt2.Name = "CBArt2";
-            this.CBArt2.Size = new System.Drawing.Size(15, 14);
-            this.CBArt2.TabIndex = 28;
-            this.CBArt2.UseVisualStyleBackColor = true;
-            // 
-            // CBSport3
-            // 
-            this.CBSport3.AutoSize = true;
-            this.CBSport3.Enabled = false;
-            this.CBSport3.Location = new System.Drawing.Point(90, 145);
-            this.CBSport3.Name = "CBSport3";
-            this.CBSport3.Size = new System.Drawing.Size(15, 14);
-            this.CBSport3.TabIndex = 29;
-            this.CBSport3.UseVisualStyleBackColor = true;
-            // 
-            // CBHistoire3
-            // 
-            this.CBHistoire3.AutoSize = true;
-            this.CBHistoire3.Enabled = false;
-            this.CBHistoire3.Location = new System.Drawing.Point(121, 145);
-            this.CBHistoire3.Name = "CBHistoire3";
-            this.CBHistoire3.Size = new System.Drawing.Size(15, 14);
-            this.CBHistoire3.TabIndex = 30;
-            this.CBHistoire3.UseVisualStyleBackColor = true;
-            // 
-            // CBGéo3
-            // 
-            this.CBGéo3.AutoSize = true;
-            this.CBGéo3.Enabled = false;
-            this.CBGéo3.Location = new System.Drawing.Point(151, 145);
-            this.CBGéo3.Name = "CBGéo3";
-            this.CBGéo3.Size = new System.Drawing.Size(15, 14);
-            this.CBGéo3.TabIndex = 31;
-            this.CBGéo3.UseVisualStyleBackColor = true;
-            // 
-            // CBArt3
-            // 
-            this.CBArt3.AutoSize = true;
-            this.CBArt3.Enabled = false;
-            this.CBArt3.Location = new System.Drawing.Point(181, 145);
-            this.CBArt3.Name = "CBArt3";
-            this.CBArt3.Size = new System.Drawing.Size(15, 14);
-            this.CBArt3.TabIndex = 32;
-            this.CBArt3.UseVisualStyleBackColor = true;
-            // 
-            // CBSport4
-            // 
-            this.CBSport4.AutoSize = true;
-            this.CBSport4.Enabled = false;
-            this.CBSport4.Location = new System.Drawing.Point(90, 173);
-            this.CBSport4.Name = "CBSport4";
-            this.CBSport4.Size = new System.Drawing.Size(15, 14);
-            this.CBSport4.TabIndex = 33;
-            this.CBSport4.UseVisualStyleBackColor = true;
-            // 
-            // CBHistoire4
-            // 
-            this.CBHistoire4.AutoSize = true;
-            this.CBHistoire4.Enabled = false;
-            this.CBHistoire4.Location = new System.Drawing.Point(121, 173);
-            this.CBHistoire4.Name = "CBHistoire4";
-            this.CBHistoire4.Size = new System.Drawing.Size(15, 14);
-            this.CBHistoire4.TabIndex = 34;
-            this.CBHistoire4.UseVisualStyleBackColor = true;
-            // 
-            // CBGéo4
-            // 
-            this.CBGéo4.AutoSize = true;
-            this.CBGéo4.Enabled = false;
-            this.CBGéo4.Location = new System.Drawing.Point(151, 173);
-            this.CBGéo4.Name = "CBGéo4";
-            this.CBGéo4.Size = new System.Drawing.Size(15, 14);
-            this.CBGéo4.TabIndex = 35;
-            this.CBGéo4.UseVisualStyleBackColor = true;
-            // 
-            // CBArt4
-            // 
-            this.CBArt4.AutoSize = true;
-            this.CBArt4.Enabled = false;
-            this.CBArt4.Location = new System.Drawing.Point(181, 173);
-            this.CBArt4.Name = "CBArt4";
-            this.CBArt4.Size = new System.Drawing.Size(15, 14);
-            this.CBArt4.TabIndex = 36;
-            this.CBArt4.UseVisualStyleBackColor = true;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -541,11 +381,187 @@
             this.BTN_Couleur.TabIndex = 43;
             this.BTN_Couleur.UseVisualStyleBackColor = false;
             // 
+            // Sport1
+            // 
+            this.Sport1.AutoSize = true;
+            this.Sport1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sport1.Location = new System.Drawing.Point(91, 86);
+            this.Sport1.Name = "Sport1";
+            this.Sport1.Size = new System.Drawing.Size(15, 16);
+            this.Sport1.TabIndex = 44;
+            this.Sport1.Text = "0";
+            // 
+            // Histoire1
+            // 
+            this.Histoire1.AutoSize = true;
+            this.Histoire1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Histoire1.Location = new System.Drawing.Point(121, 86);
+            this.Histoire1.Name = "Histoire1";
+            this.Histoire1.Size = new System.Drawing.Size(15, 16);
+            this.Histoire1.TabIndex = 45;
+            this.Histoire1.Text = "0";
+            // 
+            // Géo1
+            // 
+            this.Géo1.AutoSize = true;
+            this.Géo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Géo1.Location = new System.Drawing.Point(150, 86);
+            this.Géo1.Name = "Géo1";
+            this.Géo1.Size = new System.Drawing.Size(15, 16);
+            this.Géo1.TabIndex = 46;
+            this.Géo1.Text = "0";
+            // 
+            // Art1
+            // 
+            this.Art1.AutoSize = true;
+            this.Art1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Art1.Location = new System.Drawing.Point(180, 86);
+            this.Art1.Name = "Art1";
+            this.Art1.Size = new System.Drawing.Size(15, 16);
+            this.Art1.TabIndex = 47;
+            this.Art1.Text = "0";
+            // 
+            // Sport2
+            // 
+            this.Sport2.AutoSize = true;
+            this.Sport2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sport2.Location = new System.Drawing.Point(91, 115);
+            this.Sport2.Name = "Sport2";
+            this.Sport2.Size = new System.Drawing.Size(15, 16);
+            this.Sport2.TabIndex = 48;
+            this.Sport2.Text = "0";
+            // 
+            // Histoire2
+            // 
+            this.Histoire2.AutoSize = true;
+            this.Histoire2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Histoire2.Location = new System.Drawing.Point(121, 115);
+            this.Histoire2.Name = "Histoire2";
+            this.Histoire2.Size = new System.Drawing.Size(15, 16);
+            this.Histoire2.TabIndex = 49;
+            this.Histoire2.Text = "0";
+            // 
+            // Géo2
+            // 
+            this.Géo2.AutoSize = true;
+            this.Géo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Géo2.Location = new System.Drawing.Point(150, 115);
+            this.Géo2.Name = "Géo2";
+            this.Géo2.Size = new System.Drawing.Size(15, 16);
+            this.Géo2.TabIndex = 50;
+            this.Géo2.Text = "0";
+            // 
+            // Art2
+            // 
+            this.Art2.AutoSize = true;
+            this.Art2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Art2.Location = new System.Drawing.Point(180, 115);
+            this.Art2.Name = "Art2";
+            this.Art2.Size = new System.Drawing.Size(15, 16);
+            this.Art2.TabIndex = 51;
+            this.Art2.Text = "0";
+            // 
+            // Sport3
+            // 
+            this.Sport3.AutoSize = true;
+            this.Sport3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sport3.Location = new System.Drawing.Point(91, 143);
+            this.Sport3.Name = "Sport3";
+            this.Sport3.Size = new System.Drawing.Size(15, 16);
+            this.Sport3.TabIndex = 52;
+            this.Sport3.Text = "0";
+            // 
+            // Histoire3
+            // 
+            this.Histoire3.AutoSize = true;
+            this.Histoire3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Histoire3.Location = new System.Drawing.Point(121, 143);
+            this.Histoire3.Name = "Histoire3";
+            this.Histoire3.Size = new System.Drawing.Size(15, 16);
+            this.Histoire3.TabIndex = 53;
+            this.Histoire3.Text = "0";
+            // 
+            // Géo3
+            // 
+            this.Géo3.AutoSize = true;
+            this.Géo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Géo3.Location = new System.Drawing.Point(150, 143);
+            this.Géo3.Name = "Géo3";
+            this.Géo3.Size = new System.Drawing.Size(15, 16);
+            this.Géo3.TabIndex = 54;
+            this.Géo3.Text = "0";
+            // 
+            // Art3
+            // 
+            this.Art3.AutoSize = true;
+            this.Art3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Art3.Location = new System.Drawing.Point(180, 143);
+            this.Art3.Name = "Art3";
+            this.Art3.Size = new System.Drawing.Size(15, 16);
+            this.Art3.TabIndex = 55;
+            this.Art3.Text = "0";
+            // 
+            // Sport4
+            // 
+            this.Sport4.AutoSize = true;
+            this.Sport4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Sport4.Location = new System.Drawing.Point(91, 171);
+            this.Sport4.Name = "Sport4";
+            this.Sport4.Size = new System.Drawing.Size(15, 16);
+            this.Sport4.TabIndex = 56;
+            this.Sport4.Text = "0";
+            // 
+            // Histoire4
+            // 
+            this.Histoire4.AutoSize = true;
+            this.Histoire4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Histoire4.Location = new System.Drawing.Point(121, 171);
+            this.Histoire4.Name = "Histoire4";
+            this.Histoire4.Size = new System.Drawing.Size(15, 16);
+            this.Histoire4.TabIndex = 57;
+            this.Histoire4.Text = "0";
+            // 
+            // Géo4
+            // 
+            this.Géo4.AutoSize = true;
+            this.Géo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Géo4.Location = new System.Drawing.Point(150, 171);
+            this.Géo4.Name = "Géo4";
+            this.Géo4.Size = new System.Drawing.Size(15, 16);
+            this.Géo4.TabIndex = 58;
+            this.Géo4.Text = "0";
+            // 
+            // Art4
+            // 
+            this.Art4.AutoSize = true;
+            this.Art4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Art4.Location = new System.Drawing.Point(180, 171);
+            this.Art4.Name = "Art4";
+            this.Art4.Size = new System.Drawing.Size(15, 16);
+            this.Art4.TabIndex = 59;
+            this.Art4.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 385);
+            this.Controls.Add(this.Art4);
+            this.Controls.Add(this.Géo4);
+            this.Controls.Add(this.Histoire4);
+            this.Controls.Add(this.Sport4);
+            this.Controls.Add(this.Art3);
+            this.Controls.Add(this.Géo3);
+            this.Controls.Add(this.Histoire3);
+            this.Controls.Add(this.Sport3);
+            this.Controls.Add(this.Art2);
+            this.Controls.Add(this.Géo2);
+            this.Controls.Add(this.Histoire2);
+            this.Controls.Add(this.Sport2);
+            this.Controls.Add(this.Art1);
+            this.Controls.Add(this.Géo1);
+            this.Controls.Add(this.Histoire1);
+            this.Controls.Add(this.Sport1);
             this.Controls.Add(this.BTN_Couleur);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox4);
@@ -553,22 +569,6 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.CBArt4);
-            this.Controls.Add(this.CBGéo4);
-            this.Controls.Add(this.CBHistoire4);
-            this.Controls.Add(this.CBSport4);
-            this.Controls.Add(this.CBArt3);
-            this.Controls.Add(this.CBGéo3);
-            this.Controls.Add(this.CBHistoire3);
-            this.Controls.Add(this.CBSport3);
-            this.Controls.Add(this.CBArt2);
-            this.Controls.Add(this.CBGéo2);
-            this.Controls.Add(this.CBHistoire2);
-            this.Controls.Add(this.CBSport2);
-            this.Controls.Add(this.CBArt1);
-            this.Controls.Add(this.CBGéo1);
-            this.Controls.Add(this.CBHistoire1);
-            this.Controls.Add(this.CBSport1);
             this.Controls.Add(this.Fleche3);
             this.Controls.Add(this.Fleche4);
             this.Controls.Add(this.Fleche2);
@@ -629,22 +629,6 @@
         private System.Windows.Forms.PictureBox Fleche2;
         private System.Windows.Forms.PictureBox Fleche4;
         private System.Windows.Forms.PictureBox Fleche3;
-        private System.Windows.Forms.CheckBox CBSport1;
-        private System.Windows.Forms.CheckBox CBHistoire1;
-        private System.Windows.Forms.CheckBox CBGéo1;
-        private System.Windows.Forms.CheckBox CBArt1;
-        private System.Windows.Forms.CheckBox CBSport2;
-        private System.Windows.Forms.CheckBox CBHistoire2;
-        private System.Windows.Forms.CheckBox CBGéo2;
-        private System.Windows.Forms.CheckBox CBArt2;
-        private System.Windows.Forms.CheckBox CBSport3;
-        private System.Windows.Forms.CheckBox CBHistoire3;
-        private System.Windows.Forms.CheckBox CBGéo3;
-        private System.Windows.Forms.CheckBox CBArt3;
-        private System.Windows.Forms.CheckBox CBSport4;
-        private System.Windows.Forms.CheckBox CBHistoire4;
-        private System.Windows.Forms.CheckBox CBGéo4;
-        private System.Windows.Forms.CheckBox CBArt4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -652,6 +636,22 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button BTN_Couleur;
+        private System.Windows.Forms.Label Sport1;
+        private System.Windows.Forms.Label Histoire1;
+        private System.Windows.Forms.Label Géo1;
+        private System.Windows.Forms.Label Art1;
+        private System.Windows.Forms.Label Sport2;
+        private System.Windows.Forms.Label Histoire2;
+        private System.Windows.Forms.Label Géo2;
+        private System.Windows.Forms.Label Art2;
+        private System.Windows.Forms.Label Sport3;
+        private System.Windows.Forms.Label Histoire3;
+        private System.Windows.Forms.Label Géo3;
+        private System.Windows.Forms.Label Art3;
+        private System.Windows.Forms.Label Sport4;
+        private System.Windows.Forms.Label Histoire4;
+        private System.Windows.Forms.Label Géo4;
+        private System.Windows.Forms.Label Art4;
     }
 }
 

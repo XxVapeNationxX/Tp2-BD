@@ -24,6 +24,7 @@ namespace TP2_ASP.NET
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             User1.Text = Joueur1.Prenom;
             User2.Text = Joueur2.Prenom;
             if(Joueur3.Id != -1)
