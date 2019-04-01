@@ -70,16 +70,27 @@ namespace TP2_ASP.NET
                 Fleche4.Enabled = false;
                 Fleche1.Enabled = true;
             }
+            BTN_Question.Enabled = true;
         }
 
-        private void ChangerCouleur()
+        private void ChangerCouleur(string Couleur)
         {
-            string Couleur = "blanc";
             if(Couleur == "blanc")
             {
                 BTN_Couleur.BackColor = Color.White;
-                BTN_Catégorie.Enabled = true;
+                Réponse1.Enabled = false;
+                Réponse2.Enabled = false;
+                Réponse3.Enabled = false;
+                Réponse4.Enabled = false;
                 CatégorieChoisi.Enabled = true;
+                if (CatégorieChoisi.SelectedIndex > -1)
+                {
+                    BTN_Catégorie.Enabled = true;
+                }
+                else
+                {
+                    BTN_Catégorie.Enabled = false;
+                }
             }
             else if(Couleur == "vert") //Sport
             {
@@ -109,6 +120,30 @@ namespace TP2_ASP.NET
         {
             SupprimerJoueur form = new SupprimerJoueur();
             form.Show();
+        }
+
+        private void BTN_Question_Click(object sender, EventArgs e)
+        {
+            BTN_Question.Enabled = false;
+            Réponse1.Enabled = true;
+            Réponse2.Enabled = true;
+            Réponse3.Enabled = true;
+            Réponse4.Enabled = true;
+            //Piger une question
+            string Couleur = "blanc";
+            ChangerCouleur(Couleur);
+        }
+
+        private void CatégorieChoisi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CatégorieChoisi.SelectedIndex > -1)
+            {
+                BTN_Catégorie.Enabled = true;
+            }
+            else
+            {
+                BTN_Catégorie.Enabled = false;
+            }
         }
     }
 }

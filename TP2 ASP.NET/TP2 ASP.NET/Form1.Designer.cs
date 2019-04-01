@@ -153,6 +153,7 @@
             this.BTN_Question.TabIndex = 6;
             this.BTN_Question.Text = "Piger une question";
             this.BTN_Question.UseVisualStyleBackColor = true;
+            this.BTN_Question.Click += new System.EventHandler(this.BTN_Question_Click);
             // 
             // groupBox1
             // 
@@ -550,6 +551,7 @@
             this.CatégorieChoisi.Name = "CatégorieChoisi";
             this.CatégorieChoisi.Size = new System.Drawing.Size(178, 21);
             this.CatégorieChoisi.TabIndex = 60;
+            this.CatégorieChoisi.SelectedIndexChanged += new System.EventHandler(this.CatégorieChoisi_SelectedIndexChanged);
             // 
             // Form1
             // 
