@@ -14,7 +14,7 @@ namespace TP2_ASP.NET
 {
     public partial class Menu : Form
     {
-        public OracleConnection conn = new OracleConnection();
+        public OracleConnection CurrentConn = new OracleConnection();
         private DataSet monDataSet = new DataSet();
         private OracleDataAdapter Adapter = new OracleDataAdapter();
         User Joueur1 = new User();
@@ -29,17 +29,18 @@ namespace TP2_ASP.NET
 
         private void Menu_Load(object sender, EventArgs e)
         {
+          
             try
             {
-                string dsource = "(DESCRIPTION="
-                     + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)"
-                     + "(HOST=Mercure.clg.qc.ca)(PORT=1521)))"
-                     + "(CONNECT_DATA=(SERVICE_NAME=ORCL.clg.qc.ca)))";
-
-                string ChaineDeConnection = "Data Source = " + dsource + "; User Id = bourgeoc; password = Bourg123";
-                conn.ConnectionString = ChaineDeConnection;
-                conn.Open();
-                MessageBox.Show(conn.State.ToString());
+                string Dsource = "(DESCRIPTION="
+                 + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)"
+                 + "(HOST=205.237.244.251)(PORT=1521)))"
+                 + "(CONNECT_DATA=(SERVICE_NAME=ORCL.clg.qc.ca)))";
+                String ChaineConnexion = "Data Source=" + Dsource
+                + ";User Id= bourgeoc" + ";Password=Bourg123";
+                CurrentConn.ConnectionString = ChaineConnexion;
+                CurrentConn.Open();
+                MessageBox.Show(CurrentConn.State.ToString());
             }
             catch (Exception sqlConn)
             {
