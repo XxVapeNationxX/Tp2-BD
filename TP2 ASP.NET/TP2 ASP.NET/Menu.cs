@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.ManagedDataAccess.Client;
+using Oracle.ManagedDataAccess.Types;
 
 namespace TP2_ASP.NET
 {
     public partial class Menu : Form
     {
+        public OracleConnection conn = new OracleConnection();
+        private DataSet monDataSet = new DataSet();
+        private OracleDataAdapter Adapter = new OracleDataAdapter();
         User Joueur1 = new User();
         User Joueur2 = new User();
         User Joueur3 = new User();
@@ -23,6 +28,22 @@ namespace TP2_ASP.NET
 
         private void Menu_Load(object sender, EventArgs e)
         {
+            try
+            {
+                string dsource = "(DESCRIPTION="
+                     + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)"
+                     + "(HOST=mercure.clg.qc.ca)(PORT=1521)))"
+                     + "(CONNECT_DATA=(SERVICE_NAME=ORCL.clg.qc.ca)))";
+
+                string ChaineDeConnection = "Data Source = " + dsource + "; User Id = bourgeoc; password = Bourg123";
+                conn.ConnectionString = ChaineDeConnection;
+                conn.Open();
+                MessageBox.Show(conn.State.ToString());
+            }
+            catch (Exception sqlConn)
+            {
+                MessageBox.Show(sqlConn.Message.ToString());
+            }
             Start.Enabled = false;
             Joueur1Prenom.Clear();
             Joueur2Prenom.Clear();
