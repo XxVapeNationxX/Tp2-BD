@@ -21,6 +21,7 @@ namespace TP2_ASP.NET
         User Joueur2 = new User();
         User Joueur3 = new User();
         User Joueur4 = new User();
+
         public Menu()
         {
             InitializeComponent();
