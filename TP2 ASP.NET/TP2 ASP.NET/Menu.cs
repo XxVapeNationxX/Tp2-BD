@@ -36,8 +36,8 @@ namespace TP2_ASP.NET
                  + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)"
                  + "(HOST=205.237.244.251)(PORT=1521)))"
                  + "(CONNECT_DATA=(SERVICE_NAME=ORCL.clg.qc.ca)))";
-                String ChaineConnexion = "Data Source=" + Dsource
-                + ";User Id= bourgeoc" + ";Password=Bourg123";
+                string ChaineConnexion = "Data Source=" + Dsource
+                + ";User Id=bourgeoc" + ";Password=Bourg123";
                 CurrentConn.ConnectionString = ChaineConnexion;
                 CurrentConn.Open();
                 MessageBox.Show(CurrentConn.State.ToString());
