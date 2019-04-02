@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Oracle.ManagedDataAccess.Client;
+using Oracle.ManagedDataAccess.Types;
+
 
 namespace TP2_ASP.NET
 {
     public partial class SupprimerJoueur : Form
     {
+        public OracleConnection Conn = new OracleConnection();
         public SupprimerJoueur()
         {
             InitializeComponent();

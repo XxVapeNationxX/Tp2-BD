@@ -9,11 +9,15 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+using Oracle.ManagedDataAccess.Client;
+using Oracle.ManagedDataAccess.Types;
 
 namespace TP2_ASP.NET
 {
     public partial class Form1 : Form
     {
+        public OracleConnection Conn = new OracleConnection();
+
         public User Joueur1;
         public User Joueur2;
         public User Joueur3;
