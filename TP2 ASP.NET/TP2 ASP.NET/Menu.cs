@@ -32,7 +32,7 @@ namespace TP2_ASP.NET
             {
                 string dsource = "(DESCRIPTION="
                      + "(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)"
-                     + "(HOST=mercure.clg.qc.ca)(PORT=1521)))"
+                     + "(HOST=Mercure.clg.qc.ca)(PORT=1521)))"
                      + "(CONNECT_DATA=(SERVICE_NAME=ORCL.clg.qc.ca)))";
 
                 string ChaineDeConnection = "Data Source = " + dsource + "; User Id = bourgeoc; password = Bourg123";
