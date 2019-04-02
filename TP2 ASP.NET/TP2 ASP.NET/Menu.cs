@@ -109,8 +109,15 @@ namespace TP2_ASP.NET
 
         private void Admin_Click(object sender, EventArgs e)
         {
-            Admin admin = new Admin();
-            admin.ShowDialog();
+            Admin dlg = new Admin();
+            dlg.Conn = CurrentConn;
+
+            DialogResult dlg_result = dlg.ShowDialog();
+
+            if (dlg_result == DialogResult.OK)
+            {
+
+            }
         }
     }
 }
